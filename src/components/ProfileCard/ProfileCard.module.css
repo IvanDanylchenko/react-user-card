@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-article {
+.userCard {
   margin: 15px;
   background-color: white;
   min-width: 350px;
@@ -14,49 +14,52 @@ article {
   text-align: center;
 }
 
-img {
+.userHeaderCard {
+  position: relative;
+}
+
+.userImg {
   width: 100%;
   height: 50%;
   object-fit: cover;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
-  position: relative;
 }
 
-h1,
+.userHeaderCard h1,
 p {
-  position: fixed;
+  position: absolute;
   color: white;
 }
 
-h1 {
-  top: 65%;
+.userHeaderCard h1 {
+  top: 80%;
   left: 40%;
 }
 
-p {
-  top: 70%;
+.userHeaderCard p {
+  top: 85%;
   left: 44%;
 }
 
-footer {
+.userFooterCard {
   display: flex;
   padding: 50px;
 }
 
-h2 {
+.userFooterCard h2 {
   color: gray;
 }
 
-div {
+.userFooterCard div {
   flex: 1;
 }
 
-footer {
+.userFooterCard {
   position: relative;
 }
 
-button {
+.cardBtn {
   position: absolute;
   background-color: white;
   color: black;

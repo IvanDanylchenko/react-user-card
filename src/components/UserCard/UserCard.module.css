@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-article {
+.userCard {
   margin: 15px;
   background-color: white;
   min-width: 350px;
@@ -15,7 +15,7 @@ article {
   position: relative;
 }
 
-img {
+.userImg {
   width: 100%;
   height: 50%;
   object-fit: cover;
@@ -23,31 +23,31 @@ img {
   border-top-right-radius: 14px;
 }
 
-h1,
+.userHeaderCard h1,
 p {
   position: absolute;
   color: white;
 }
 
-h1 {
+.userHeaderCard h1 {
   top: 65%;
   left: 40%;
 }
 
-p {
+.userHeaderCard p {
   top: 70%;
   left: 44%;
 }
 
-footer {
+.userFooterCard {
   display: flex;
   padding: 50px;
 }
 
-h2 {
+.userFooterCard h2 {
   color: gray;
 }
 
-div {
+.userFooterCard div {
   flex: 1;
 }
